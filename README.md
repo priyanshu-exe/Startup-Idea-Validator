@@ -1,4 +1,4 @@
-# 🧪 IdeaLab — AI-Powered Startup Idea Validator
+# IdeaLab — AI-Powered Startup Idea Validator
 
 An MVP web application that lets users submit startup ideas and receive an AI-generated validation report including market analysis, competitor landscape, risk assessment, and profitability scoring.
 
