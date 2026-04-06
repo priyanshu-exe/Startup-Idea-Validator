@@ -7,7 +7,7 @@ const AVAILABLE_MODELS = [
   { id: "llama-3.3-70b-versatile", name: "LLaMA 3.3 70B" },
   { id: "llama-3.1-8b-instant", name: "LLaMA 3.1 8B (Fast)" },
   { id: "llama-3.1-70b-versatile", name: "LLaMA 3.1 70B" },
-  { id: "gemma2-9b-it", name: "Gemma 2 9B" },
+  { id: "qwen3-32b", name: "Qwen 3 32B" },
 ];
 
 const DEFAULT_MODEL = "llama-3.3-70b-versatile";
