@@ -23,7 +23,7 @@ Startup-Idea-Validator/
     └── src/
         ├── index.js                 # Entry point + MongoDB connection
         ├── models/Idea.js           # Mongoose schema
-        ├── services/aiService.js    # OpenAI integration
+        ├── services/aiService.js    # Groq integration
         ├── controllers/ideaController.js  # Business logic
         └── routes/ideas.js          # REST routes
 ```
@@ -35,11 +35,11 @@ Startup-Idea-Validator/
 ### Prerequisites
 - Node.js ≥ 18
 - MongoDB Atlas account (or local MongoDB)
-- OpenAI API key
+- GROQ API key
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/priyanshu-exe/Startup-Idea-Validator.git
 cd Startup-Idea-Validator
 ```
 
@@ -102,7 +102,7 @@ Input: { "title": "...", "description": "..." }
 | Frontend   | Next.js 15 (App Router), Vanilla CSS |
 | Backend    | Express.js, Node.js             |
 | Database   | MongoDB (Mongoose)              |
-| AI         | OpenAI GPT-4o-mini              |
+| AI         | Groq                            |
 
 ---
 
@@ -122,7 +122,7 @@ Input: { "title": "...", "description": "..." }
 ```
 PORT=5000
 MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/startup-validator
-OPENAI_API_KEY=sk-...
+GROQ_API_KEY=...
 ```
 
 ### Client (`client/.env.local`)
@@ -131,7 +131,3 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 ```
 
 ---
-
-## 📝 License
-
-MIT
